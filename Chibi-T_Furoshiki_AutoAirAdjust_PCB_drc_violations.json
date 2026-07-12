@@ -1,0 +1,379 @@
+{
+  "board": "/Users/tomohirokusu/Library/CloudStorage/OneDrive-\u500b\u4eba\u7528/\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8/KiCad/Project/Chibi-T_Furoshiki_AutoAirAdjust_PCB/Chibi-T_Furoshiki_AutoAirAdjust_PCB.kicad_pcb",
+  "timestamp": "2026-07-12T01:23:38",
+  "total_violations": 36,
+  "violation_counts": {
+    "courtyards_overlap": 2,
+    "silk_edge_clearance": 3,
+    "lib_footprint_issues": 9,
+    "silk_overlap": 16,
+    "silk_over_copper": 6
+  },
+  "severity_counts": {
+    "error": 0,
+    "warning": 36,
+    "info": 0
+  },
+  "violations": [
+    {
+      "type": "courtyards_overlap",
+      "severity": "warning",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 130.175,
+        "y": 106.239252,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "warning",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 126.712,
+        "y": 105.276252,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "\u57fa\u677f\u7aef\u3067\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u304c\u5207\u308a\u53d6\u3089\u308c\u3066\u3044\u308b (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0900 mm)",
+      "location": {
+        "x": 152.7,
+        "y": 145.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "\u57fa\u677f\u7aef\u3067\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u304c\u5207\u308a\u53d6\u3089\u308c\u3066\u3044\u308b (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0900 mm)",
+      "location": {
+        "x": 151.7,
+        "y": 149.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "\u57fa\u677f\u7aef\u3067\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u304c\u5207\u308a\u53d6\u3089\u308c\u3066\u3044\u308b (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0489 mm)",
+      "location": {
+        "x": 152.0,
+        "y": 109.714082,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "\u73fe\u5728\u306e\u69cb\u6210\u306b\u306f\u30d5\u30c3\u30c8\u30d7\u30ea\u30f3\u30c8 \u30e9\u30a4\u30d6\u30e9\u30ea '@bf' \u304c\u542b\u307e\u308c\u3066\u3044\u307e\u305b\u3093",
+      "location": {
+        "x": 109.0,
+        "y": 105.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "\u73fe\u5728\u306e\u69cb\u6210\u306b\u306f\u30d5\u30c3\u30c8\u30d7\u30ea\u30f3\u30c8 \u30e9\u30a4\u30d6\u30e9\u30ea '@bf' \u304c\u542b\u307e\u308c\u3066\u3044\u307e\u305b\u3093",
+      "location": {
+        "x": 149.0,
+        "y": 149.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "\u73fe\u5728\u306e\u69cb\u6210\u306b\u306f\u30d5\u30c3\u30c8\u30d7\u30ea\u30f3\u30c8 \u30e9\u30a4\u30d6\u30e9\u30ea '@bf' \u304c\u542b\u307e\u308c\u3066\u3044\u307e\u305b\u3093",
+      "location": {
+        "x": 109.0,
+        "y": 149.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "\u73fe\u5728\u306e\u69cb\u6210\u306b\u306f\u30d5\u30c3\u30c8\u30d7\u30ea\u30f3\u30c8 \u30e9\u30a4\u30d6\u30e9\u30ea '@bf' \u304c\u542b\u307e\u308c\u3066\u3044\u307e\u305b\u3093",
+      "location": {
+        "x": 105.0,
+        "y": 149.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "\u73fe\u5728\u306e\u69cb\u6210\u306b\u306f\u30d5\u30c3\u30c8\u30d7\u30ea\u30f3\u30c8 \u30e9\u30a4\u30d6\u30e9\u30ea '@bf' \u304c\u542b\u307e\u308c\u3066\u3044\u307e\u305b\u3093",
+      "location": {
+        "x": 149.0,
+        "y": 105.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "\u73fe\u5728\u306e\u69cb\u6210\u306b\u306f\u30d5\u30c3\u30c8\u30d7\u30ea\u30f3\u30c8 \u30e9\u30a4\u30d6\u30e9\u30ea '@bf' \u304c\u542b\u307e\u308c\u3066\u3044\u307e\u305b\u3093",
+      "location": {
+        "x": 145.0,
+        "y": 105.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "\u73fe\u5728\u306e\u69cb\u6210\u306b\u306f\u30d5\u30c3\u30c8\u30d7\u30ea\u30f3\u30c8 \u30e9\u30a4\u30d6\u30e9\u30ea '@bf' \u304c\u542b\u307e\u308c\u3066\u3044\u307e\u305b\u3093",
+      "location": {
+        "x": 105.0,
+        "y": 105.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "\u73fe\u5728\u306e\u69cb\u6210\u306b\u306f\u30d5\u30c3\u30c8\u30d7\u30ea\u30f3\u30c8 \u30e9\u30a4\u30d6\u30e9\u30ea '@bf' \u304c\u542b\u307e\u308c\u3066\u3044\u307e\u305b\u3093",
+      "location": {
+        "x": 145.0,
+        "y": 149.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "\u73fe\u5728\u306e\u69cb\u6210\u306b\u306f\u30d5\u30c3\u30c8\u30d7\u30ea\u30f3\u30c8 \u30e9\u30a4\u30d6\u30e9\u30ea '@bf' \u304c\u542b\u307e\u308c\u3066\u3044\u307e\u305b\u3093",
+      "location": {
+        "x": 108.0,
+        "y": 127.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0433 mm)",
+      "location": {
+        "x": 115.316,
+        "y": 140.97,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0000 mm)",
+      "location": {
+        "x": 139.446,
+        "y": 140.97,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0216 mm)",
+      "location": {
+        "x": 139.446,
+        "y": 140.97,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0184 mm)",
+      "location": {
+        "x": 144.33,
+        "y": 137.29,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0000 mm)",
+      "location": {
+        "x": 144.33,
+        "y": 137.29,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.1100 mm)",
+      "location": {
+        "x": 126.492,
+        "y": 140.97,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0011 mm)",
+      "location": {
+        "x": 145.44,
+        "y": 141.18,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.1100 mm)",
+      "location": {
+        "x": 151.55,
+        "y": 140.93,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0000 mm)",
+      "location": {
+        "x": 115.316,
+        "y": 140.97,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0000 mm)",
+      "location": {
+        "x": 144.33,
+        "y": 144.57,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0000 mm)",
+      "location": {
+        "x": 129.162,
+        "y": 105.276252,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0830 mm)",
+      "location": {
+        "x": 128.322,
+        "y": 103.666252,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0000 mm)",
+      "location": {
+        "x": 125.222,
+        "y": 107.188,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0000 mm)",
+      "location": {
+        "x": 125.122,
+        "y": 105.135672,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.0803 mm)",
+      "location": {
+        "x": 139.446,
+        "y": 115.57,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u30af\u30ea\u30a2\u30e9\u30f3\u30b9 (\u57fa\u677f\u306e\u8a2d\u5b9a\u306e\u30b7\u30eb\u30af\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u5236\u7d04 \u30af\u30ea\u30a2\u30e9\u30f3\u30b9 0.1524 mm; \u73fe\u72b6 0.1084 mm)",
+      "location": {
+        "x": 128.27,
+        "y": 132.842,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 115.316,
+        "y": 140.97,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 126.492,
+        "y": 140.97,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 125.222,
+        "y": 107.188,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 129.162,
+        "y": 105.276252,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 125.102,
+        "y": 106.886252,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 125.102,
+        "y": 106.886252,
+        "unit": "mm"
+      }
+    }
+  ]
+}
