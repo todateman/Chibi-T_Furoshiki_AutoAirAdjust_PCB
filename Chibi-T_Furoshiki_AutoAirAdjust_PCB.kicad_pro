@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -164,14 +164,6 @@
         ],
         [
           "shorting_items|109270000|132080000|4bbb37ac-2cd8-432a-b603-6c7d654ba84b|10d2bf35-e0e5-4b6f-8f6f-6ca0954b9085",
-          ""
-        ],
-        [
-          "shorting_items|109270000|134620000|5ffebb66-c179-4083-a5c6-b42540003a34|99ba5d93-4dd6-4cde-bebb-5533d9d92c34",
-          ""
-        ],
-        [
-          "shorting_items|109270000|134620000|b149a97c-84de-4588-9fc8-0490c409484f|99ba5d93-4dd6-4cde-bebb-5533d9d92c34",
           ""
         ],
         [
@@ -395,7 +387,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.01"
     },
     "layer_pairs": [],
     "layer_presets": [],

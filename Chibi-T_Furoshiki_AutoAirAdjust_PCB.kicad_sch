@@ -5,7 +5,8 @@
 	(uuid "70c425e8-c82b-42c0-a373-0ea779731c61")
 	(paper "A4")
 	(title_block
-		(date "2022-10-23")
+		(date "2026-07-14")
+		(rev "1.01")
 	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
@@ -4740,6 +4741,10 @@
 		(uuid "08f7cb20-f213-4997-8e5b-9f59dfee4759")
 	)
 	(no_connect
+		(at 110.49 113.03)
+		(uuid "18f35d2d-6012-4978-877c-c705afee9d92")
+	)
+	(no_connect
 		(at 123.19 107.95)
 		(uuid "22eeb020-df43-48de-9877-4eb0efc5a81e")
 	)
@@ -4752,12 +4757,20 @@
 		(uuid "2d4bf309-4a05-4dff-8f8c-a1ae28d330bb")
 	)
 	(no_connect
+		(at 123.19 113.03)
+		(uuid "316b18e2-92da-4c02-b9d2-5b0e4c2be1e8")
+	)
+	(no_connect
 		(at 123.19 90.17)
 		(uuid "3731130d-eab6-4a84-87bc-8a7dcc9d5652")
 	)
 	(no_connect
 		(at 123.19 87.63)
 		(uuid "384a4bfa-0f3d-473f-ab72-76a474f26b0d")
+	)
+	(no_connect
+		(at 123.19 115.57)
+		(uuid "54f7ee17-1489-47a9-8b09-d638664c7be1")
 	)
 	(no_connect
 		(at 123.19 100.33)
@@ -4772,12 +4785,16 @@
 		(uuid "a423df74-63b6-4abe-96dd-afd6a61d0328")
 	)
 	(no_connect
-		(at 123.19 110.49)
-		(uuid "a6ef78fc-19a6-46db-8f16-8a73f3b90416")
+		(at 110.49 102.87)
+		(uuid "ca7eba3a-64a3-4526-b309-f174f820b29c")
 	)
 	(no_connect
 		(at 110.49 92.71)
 		(uuid "cb7c1ba7-68c2-4b18-9d7c-13215cb75173")
+	)
+	(no_connect
+		(at 123.19 102.87)
+		(uuid "ccc4fc84-8e31-4952-a0fc-7a024dea05bc")
 	)
 	(no_connect
 		(at 123.19 92.71)
@@ -5789,16 +5806,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 115.57) (xy 139.7 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae31de20-edb5-47bb-885a-4532703e2fe0")
-	)
-	(wire
-		(pts
 			(xy 99.06 43.18) (xy 101.6 43.18)
 		)
 		(stroke
@@ -6286,6 +6293,16 @@
 			(type default)
 		)
 		(uuid "fba04e0a-9214-40e8-baf4-6fabc4b923b6")
+	)
+	(wire
+		(pts
+			(xy 123.19 110.49) (xy 139.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcdc56de-04b7-45f3-af53-72aa23241bac")
 	)
 	(wire
 		(pts
@@ -12598,7 +12615,7 @@
 		)
 		(uuid "16d13d80-4067-4638-8afe-ae81ac95d95d")
 	)
-	(label "GPIO19_1_1"
+	(label "GPIO19_1_1_1"
 		(at 110.49 95.25 180)
 		(effects
 			(font
@@ -12608,7 +12625,7 @@
 		)
 		(uuid "3d22920c-af19-4886-9df1-2335be89b36d")
 	)
-	(label "GPIO18_1_1"
+	(label "GPIO18_1_1_1"
 		(at 110.49 97.79 180)
 		(effects
 			(font
@@ -12618,7 +12635,7 @@
 		)
 		(uuid "43b5a351-5e3d-4b71-ab91-480cfeb8b38b")
 	)
-	(label "GPIO26_1_1"
+	(label "GPIO26_1_1_1"
 		(at 123.19 95.25 0)
 		(effects
 			(font
@@ -12748,7 +12765,7 @@
 		)
 		(uuid "c46f5b41-3d42-4913-8387-fbb693e714d1")
 	)
-	(label "GPIO1_1_1"
+	(label "GPIO1_1_1_1"
 		(at 123.19 100.33 0)
 		(effects
 			(font
@@ -12758,7 +12775,7 @@
 		)
 		(uuid "d853795c-fdf6-4732-8141-a125d6d9605c")
 	)
-	(label "GPIO25_2_2"
+	(label "GPIO25_2_2_2"
 		(at 123.19 92.71 0)
 		(effects
 			(font
@@ -12768,7 +12785,7 @@
 		)
 		(uuid "d8ec9d20-a067-43b4-acc4-8a9f58a11b36")
 	)
-	(label "GPIO23_2_2"
+	(label "GPIO23_2_2_2"
 		(at 110.49 92.71 180)
 		(effects
 			(font
@@ -12778,7 +12795,7 @@
 		)
 		(uuid "e1ffdc0e-726a-4c4a-b7f6-fd6aa850c2c3")
 	)
-	(label "GPIO2_1_1"
+	(label "GPIO2_1_1_1"
 		(at 110.49 107.95 180)
 		(effects
 			(font
@@ -12859,30 +12876,6 @@
 		(uuid "1ad78313-ab65-4470-8195-190139a18e59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.8228 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SOL_TRG"
-		(shape output)
-		(at 139.7 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b538735-77fa-420f-824f-26ccf4336294")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.7285 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13011,6 +13004,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SOL_TRG"
+		(shape output)
+		(at 139.7 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d457f6b-7064-4949-8f0c-218029cbf4f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.7285 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
