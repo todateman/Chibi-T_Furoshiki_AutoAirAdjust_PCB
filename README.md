@@ -56,7 +56,15 @@ flowchart TD
 
 1. **空気圧計測（1次側・2次側）**
    Gravity MPX5700AP を 2 個、I2C ADC モジュール経由で Grove I2C コネクタ（J5・J6）に接続し、
-   M5Stack の I2C バス（GPIO21=SDA / GPIO22=SCL）上で読み取ります。  
+   M5Stack の I2C バス上で読み取ります。  
+
+   **2026.08.07 更新 Ver1.02**: M5Stack Basic / Core2 の I2C バスのピン配置は以下の通りです。
+
+   | ボード | SDA | SCL |
+   | --- | --- | --- |
+   | M5Stack Basic | GPIO02 | GPIO05 |
+   | M5Core2 | GPIO32 | GPIO33 |
+
    DFRobot Gravity MPX5700AP (SEN0456) のモジュール上の DIP スイッチで、I2Cアドレスは `0x16` 〜 `0x19` のいずれかに設定可能です。
 
 2. **燃圧計測**

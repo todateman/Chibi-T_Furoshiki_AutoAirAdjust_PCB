@@ -5,8 +5,8 @@
 	(uuid "70c425e8-c82b-42c0-a373-0ea779731c61")
 	(paper "A4")
 	(title_block
-		(date "2026-07-14")
-		(rev "1.01")
+		(date "2026-08-07")
+		(rev "1.02")
 	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
@@ -4733,20 +4733,12 @@
 		(uuid "059d2bac-ff65-4915-9290-138fff0eabd5")
 	)
 	(no_connect
-		(at 110.49 107.95)
-		(uuid "06599bdc-b8b7-4223-82a2-6ac2ab96d114")
-	)
-	(no_connect
 		(at 110.49 97.79)
 		(uuid "08f7cb20-f213-4997-8e5b-9f59dfee4759")
 	)
 	(no_connect
 		(at 110.49 113.03)
 		(uuid "18f35d2d-6012-4978-877c-c705afee9d92")
-	)
-	(no_connect
-		(at 123.19 107.95)
-		(uuid "22eeb020-df43-48de-9877-4eb0efc5a81e")
 	)
 	(no_connect
 		(at 110.49 110.49)
@@ -4783,6 +4775,14 @@
 	(no_connect
 		(at 110.49 100.33)
 		(uuid "a423df74-63b6-4abe-96dd-afd6a61d0328")
+	)
+	(no_connect
+		(at 123.19 105.41)
+		(uuid "a5f491b9-1ba8-4641-b85e-410a713573d6")
+	)
+	(no_connect
+		(at 110.49 105.41)
+		(uuid "be5c27b1-0a6f-4108-97a4-d12052bd748f")
 	)
 	(no_connect
 		(at 110.49 102.87)
@@ -5146,16 +5146,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 105.41) (xy 139.7 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a3e3b34-47ed-45dc-9c34-48ce7c18ea3d")
-	)
-	(wire
-		(pts
 			(xy 153.67 38.1) (xy 153.67 41.91)
 		)
 		(stroke
@@ -5213,16 +5203,6 @@
 			(type default)
 		)
 		(uuid "4354effe-d786-49d0-884f-5ebc6e4554d8")
-	)
-	(wire
-		(pts
-			(xy 93.98 105.41) (xy 110.49 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "437a40ca-18b5-46cc-8405-0edc27cdb124")
 	)
 	(wire
 		(pts
@@ -5303,6 +5283,16 @@
 			(type default)
 		)
 		(uuid "514e5501-691a-4df9-b1ad-7a22db261f79")
+	)
+	(wire
+		(pts
+			(xy 93.98 107.95) (xy 110.49 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528f5bd0-f4c5-486f-91ba-84b657558f8b")
 	)
 	(wire
 		(pts
@@ -6243,6 +6233,16 @@
 			(type default)
 		)
 		(uuid "f68aed64-cef9-4872-b5db-20814e504f54")
+	)
+	(wire
+		(pts
+			(xy 123.19 107.95) (xy 139.7 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b43161-7f00-40e7-8d44-bb7604eb860c")
 	)
 	(wire
 		(pts
@@ -12937,7 +12937,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 93.98 105.41 180)
+		(at 93.98 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12947,7 +12947,7 @@
 		)
 		(uuid "43762679-e4b2-4a14-8f12-4954eb4d4edb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.4267 105.41 0)
+			(at 87.4267 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13081,7 +13081,7 @@
 	)
 	(global_label "SCL"
 		(shape output)
-		(at 139.7 105.41 0)
+		(at 139.7 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13091,7 +13091,7 @@
 		)
 		(uuid "96bfce8c-0d56-4f83-a47b-cf61be4f5256")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.1928 105.41 0)
+			(at 146.1928 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
