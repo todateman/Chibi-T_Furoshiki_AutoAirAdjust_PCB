@@ -95,14 +95,6 @@
           ""
         ],
         [
-          "shorting_items|106730000|132080000|150abddb-fa3e-4304-ac1b-2ed8b0e89452|b9a80cae-d21e-4b13-b2d9-0e898ad8fb1f",
-          ""
-        ],
-        [
-          "shorting_items|106730000|132080000|fdd392f3-c632-456d-a950-578ad52fddfb|b9a80cae-d21e-4b13-b2d9-0e898ad8fb1f",
-          ""
-        ],
-        [
           "shorting_items|106730000|134620000|bea39df4-2edd-47c5-98e4-096ed1ac445a|9dba578f-3ea1-4294-901e-d4dacbd12d30",
           ""
         ],
@@ -156,14 +148,6 @@
         ],
         [
           "shorting_items|109270000|124460000|dd223f7c-5f14-422e-be04-0a744bfd0723|a209f0b5-25e0-487e-adcd-c24aefe10caf",
-          ""
-        ],
-        [
-          "shorting_items|109270000|132080000|26fb8e09-1677-406f-a743-0aaaf9855fdb|10d2bf35-e0e5-4b6f-8f6f-6ca0954b9085",
-          ""
-        ],
-        [
-          "shorting_items|109270000|132080000|4bbb37ac-2cd8-432a-b603-6c7d654ba84b|10d2bf35-e0e5-4b6f-8f6f-6ca0954b9085",
           ""
         ],
         [
@@ -387,7 +371,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.02"
+      "sch_revision": "1.03"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -811,7 +795,7 @@
         "uuid": "70c425e8-c82b-42c0-a373-0ea779731c61"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R10,#PWR25",
     "variants": []
   },
   "sheets": [

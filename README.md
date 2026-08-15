@@ -27,6 +27,7 @@ flowchart TD
     J1["J1 M-BUS (30pin)\nM5Stack本体へ"]
     J3["J3 from_5V_Power\n外部5V供給/分岐用テストポイント"]
     J4["J4 PRESSURE_SEN\n燃圧センサ入力"]
+    R10["R10 100kΩ\nAIN0 プルダウン\n(断線検出用)"]
     U2["U2 ADS1015\n12bit I2C ADC\nI2Cアドレス 0x48\nAIN0 = 燃圧センサ信号"]
     I2C["I2Cバス\nSDA/SCL\nM5Stack GPIO21/22"]
     J5["J5 Grove I2C\n外部I2C ADC経由\nGravity MPX5700AP #1\n(1次側空気圧センサ)"]
@@ -47,6 +48,7 @@ flowchart TD
     V5 --> J4
 
     J4 --> U2
+    R10 -.->|GND プルダウン| U2
     U2 --> I2C
     I2C --> J5
     I2C --> J6
@@ -72,6 +74,13 @@ flowchart TD
    基板上の ADS1015（12bit I2C ADC、U2）の AIN0 チャンネルで読み取ります。  
    ADS1015 の ADDR ピンは GND に接続されており、I2C アドレスは `0x48` 固定です。
 
+   **2026.08.15 更新 Ver1.03**: AIN0 ネット（J4 ピン2 ～ U2 AIN0 間）に R10（100kΩ、GNDプルダウン）を追加しました。  
+   センサ本体は 0.5–4.5V 出力（0V付近には振れない）のため、J4 のセンサ配線が断線するとプルダウンにより AIN0 が 0V 付近まで下がり、ファームウェア側で「正常なセンサレンジ（≒0.5–4.5V相当のADC値）を下回っている＝断線」と判定できます。  
+   R10 は 0603 サイズ・100kΩ（R2/R4 と同一部品、LCSC C25803）で、センサの低インピーダンス出力への影響はごく僅かです。  
+   なお、ADS1015 の電源電圧は 3.3V（絶対最大定格 AIN ≦ VDD+0.3V ≒ 3.6V）である一方、センサ最大出力は 4.5V のため、現状の直結構成では正常動作範囲内でも ADC の絶対最大定格を超える可能性があります。  
+   今回のプルダウン抵抗はこの問題を解決するものではなく、別途分圧抵抗などによるレベルシフトの検討が必要です。  
+   （本リビジョンでは未対応）
+
 3. **ソレノイドバルブ制御**
    1次側から2次側への圧縮空気の通路を開閉するソレノイドバルブを、M5Stack の GPIO（M5Stack: GPIO13 / Core2: GPIO19）, SOL_TRG）からのトリガー信号で駆動します。  
    GPIO → ゲート抵抗 R8(1kΩ) → Q1(AO3400A, NchMOSFET) のローサイドスイッチ構成で、R9(12kΩ) がゲートのプルダウン（起動時の誤動作防止）、D2(1N4148WS) が逆起電力吸収用フライホイールダイオードです。  
@@ -91,7 +100,7 @@ flowchart TD
 | J1 | M-BUS | 2x15 (30pin) | M5Stack Basic/Core2 本体との直結用バスコネクタ |
 | J2 | from_12V_Power | JST XH 1x02 | 車両/バッテリーからの 12V 電源入力 |
 | J3 | from_5V_Power | Conn 1x02 | 外部 5V 供給／分岐出力用テストポイント |
-| J4 | PRESSURE_SEN | JST XH 1x03 | 燃圧センサ入力（+5V／信号(AIN0)／GND） |
+| J4 | PRESSURE_SEN | JST XH 1x03 | 燃圧センサ入力（+5V／信号(AIN0)／GND、R10でGNDプルダウンし断線検出） |
 | J5 | I2C | Grove 4pin | 外部I2C ADC経由で空気圧センサ(Gravity MPX5700AP)を接続 |
 | J6 | I2C | Grove 4pin | 外部I2C ADC経由で空気圧センサ(Gravity MPX5700AP)を接続 |
 | J7 | SOLENOID | JST XH 1x02 | ソレノイドバルブ駆動出力（VBUS系統をQ1でスイッチ） |
@@ -107,6 +116,7 @@ flowchart TD
 | D2 | 1N4148WS | ソレノイドコイルのフライホイールダイオード |
 | F1 | Polyfuse (Polyfuse_Small) | 12V入力のリセッタブルヒューズ |
 | L1 | 10uH | 降圧コンバータのインダクタ |
+| R10 | 100k (0603) | AIN0（J4燃圧センサ信号）のGNDプルダウン。センサ断線検出用 |
 
 部品表全体は [`production/bom.csv`](production/bom.csv) を参照してください。
 

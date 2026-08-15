@@ -5,8 +5,8 @@
 	(uuid "70c425e8-c82b-42c0-a373-0ea779731c61")
 	(paper "A4")
 	(title_block
-		(date "2026-08-07")
-		(rev "1.02")
+		(date "2026-08-16")
+		(rev "1.03")
 	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
@@ -4585,6 +4585,12 @@
 		(uuid "5ca957cd-8d19-4dcd-b7e3-43c09b59b05c")
 	)
 	(junction
+		(at 26.67 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "760c9340-0180-40ec-97aa-a5fda923273a")
+	)
+	(junction
 		(at 132.08 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4667,6 +4673,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c17384fd-aad1-4085-b5ae-6049915b6e9c")
+	)
+	(junction
+		(at 35.56 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2d54c13-68c9-4ce5-b38b-a3b3a94baa0a")
 	)
 	(junction
 		(at 86.36 64.77)
@@ -5066,6 +5078,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 167.64) (xy 26.67 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28af3ca0-c057-4269-9d60-4702ed65de40")
+	)
+	(wire
+		(pts
 			(xy 35.56 182.88) (xy 55.88 182.88)
 		)
 		(stroke
@@ -5193,6 +5215,16 @@
 			(type default)
 		)
 		(uuid "41425b73-9656-4b3f-96f3-62813c2eaab0")
+	)
+	(wire
+		(pts
+			(xy 26.67 182.88) (xy 26.67 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c00d98-7efa-4668-b2f8-03cc42431e10")
 	)
 	(wire
 		(pts
@@ -5736,6 +5768,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 167.64) (xy 26.67 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b0e614-bf29-474f-aaa5-ff0782adf7f5")
+	)
+	(wire
+		(pts
 			(xy 107.95 40.64) (xy 107.95 46.99)
 		)
 		(stroke
@@ -5916,6 +5958,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 182.88) (xy 26.67 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b27b84-0bc6-4dc8-badb-5334fa298ca7")
+	)
+	(wire
+		(pts
 			(xy 38.1 114.3) (xy 38.1 115.57)
 		)
 		(stroke
@@ -6033,6 +6085,16 @@
 			(type default)
 		)
 		(uuid "cf89a910-a445-4768-ab3f-55093b362070")
+	)
+	(wire
+		(pts
+			(xy 26.67 167.64) (xy 45.72 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14f2d3d-d1b9-4e28-b158-bb759e091018")
 	)
 	(wire
 		(pts
@@ -6263,16 +6325,6 @@
 			(type default)
 		)
 		(uuid "f8b38007-2bd1-4bf9-b24e-1a6fc275f4cf")
-	)
-	(wire
-		(pts
-			(xy 27.94 167.64) (xy 45.72 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9515e8a-ae51-4ab5-8ee5-72ac79a42b11")
 	)
 	(wire
 		(pts
@@ -13105,7 +13157,7 @@
 	)
 	(global_label "AIN0"
 		(shape input)
-		(at 27.94 167.64 180)
+		(at 22.86 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13115,7 +13167,7 @@
 		)
 		(uuid "a774d898-fde8-44b4-a418-ef46d916fd42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.7214 167.64 0)
+			(at 15.6414 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15047,6 +15099,110 @@
 			(project "Chibi-T_Furoshiki_AutoAirAdjust_PCB"
 				(path "/70c425e8-c82b-42c0-a373-0ea779731c61"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 26.67 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50e98949-f23c-40c9-8a5e-10bb386ce61c")
+		(property "Reference" "R10"
+			(at 29.21 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 29.21 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 24.892 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor - AIN0 sensor disconnect pull-down (JST-XH J4 pin2 open-wire detect)"
+			(at 26.67 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 26.67 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 26.67 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "746179dc-d859-4154-83a1-660952c10e8f")
+		)
+		(pin "2"
+			(uuid "60b4127f-fa78-47e4-b46c-e707b2a3ecb3")
+		)
+		(instances
+			(project "Chibi-T_Furoshiki_AutoAirAdjust_PCB"
+				(path "/70c425e8-c82b-42c0-a373-0ea779731c61"
+					(reference "R10")
 					(unit 1)
 				)
 			)
